@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-container {
+    background-color: #1f2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+header, .hero-section {
+    background-color: #1f2937;
+}
+
+.hero-section {
+    padding: 135px 0;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 50px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    width: 100%;
+}
+
+.right img {
+    background-size: contain;
+    width: 100%;
+    height: auto;
+}
+
+.imgCont {
+    padding: 100px 0;
+}
+
+figure img {
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.four-images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    gap: 15px;
+    padding: 30px 0;
+}
+
+.four-images figure {
+    flex: 1;
+    max-width: 250px;
+}
+
+.four-images figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.secondary-txt {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.btn-signup {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 10px 35px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0px transparent;
+}
+
+.btn-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.r-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-bottom: 40px;
+    margin-top: -60px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote p {
+    text-align: right;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 10px 140px;
+}
+
+.signup-ban {
+    padding: 100px 0;
+}
+
+.signup-text {
+    color: #f9faf8;
+    font-size: 22px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.banner .btn-signup {
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+}
+
+.banner .left {
+    margin-left: 100px;
+}
+
+.footer-text {
+    color: #f9faf8;
+    text-align: center;
+}
+
+footer {
+    padding: 50px 0;
+}
