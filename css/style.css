@@ -142,18 +142,24 @@ figure img {
 }
 
 .quote .container {
-    padding: 0 150px;
-}
-
-.quote p {
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
 }
 
 .inspiring-quote {
+    max-width: 800px;
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
-    padding: 10px 140px;
+}
+
+.quote p {
+    align-self: flex-end;
+    max-width: 800px;
+    text-align: right;
+    margin-top: 10px;
 }
 
 .signup-ban {
