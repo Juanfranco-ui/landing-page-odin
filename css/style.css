@@ -141,6 +141,10 @@ figure img {
     padding: 100px 0;
 }
 
+.quote .container {
+    padding: 0 150px;
+}
+
 .quote p {
     text-align: right;
 }
